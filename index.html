@@ -10,23 +10,46 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Joe &amp; Shannon</h1>
-    <small>December 10, 2002</small>
-
-    <nav>
-        <a href="/">Home</a>
-        <a href="/schedule">Schedule</a>
-        <a href="/travel">Travel</a>
-        <a href="/registry">Registry</a>
-        <a href="/photos">Gallery</a>
-        <a href="/visiting">Things to Do</a>
-        <a href="/faq">FAQS</a>
-    </nav>
-
-    <main>
-        <h2>Joe Lackner<br>and<br>Shannon Freed</h2>
-        <h3>December 10, 2022</h3>
-        <h3>Eden Prairie, MN</h3>
-    </main>
+    <div class="container">
+        <div class="row">
+            <h1>Joe &amp; Shannon</h1>
+            <small>December 10, 2002</small>
+        </div>
+        <nav class="navbar">
+            <div class="container justify-content-between align-items-center">
+                <a href="/">Home</a>
+                <a href="/schedule">Schedule</a>
+                <a href="/travel">Travel</a>
+                <a href="/registry">Registry</a>
+                <a href="/photos">Gallery</a>
+                <a href="/visiting">Things to Do</a>
+                <a href="/faq">FAQS</a>
+            </div>
+        </nav>
+        <main class="row">
+            <h2>Joe Lackner<br>and<br>Shannon Freed</h2>
+            <h3>December 10, 2022</h3>
+            <h3>Eden Prairie, MN</h3>
+        </main>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">Joe &amp; Shannon 2022</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="/schedule" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="/travel" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="/registry" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="/photos" class="nav-link px-2 text-muted">About</a></li>
+            <li class="nav-item"><a href="/visiting" class="nav-link px-2 text-muted">About</a></li>
+            <li class="nav-item"><a href="/faq" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+        </footer>
+      </div>
 </body>
 </html>
