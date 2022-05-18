@@ -1,0 +1,13 @@
+:root {
+    --wine: #722f37;
+    --tuscan: #814f55;
+    --rose: #8f6e72;
+    --pine: #2a2f23;
+    --wintergreen: #56887d;
+    --silver: #acacac;
+    --black: #1b1811;
+}
+
+html, body { 
+    background-color: var(--wine);
+}
