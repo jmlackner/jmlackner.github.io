@@ -28,3 +28,7 @@ a {
 .row.header {
     padding: 1.5rem 0;
 }
+
+footer .img {
+    display: block;
+}
