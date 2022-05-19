@@ -11,3 +11,7 @@
 html, body { 
     background-color: var(--wine);
 }
+
+h1 {
+    font-family: 'Bilbo', serif;
+}
