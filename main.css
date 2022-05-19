@@ -20,6 +20,14 @@ h1 {
     color: #fff;
 }
 
+header .h1 {
+    font-size: 5rem;
+}
+
+#countdown {
+    text-align: center;
+}
+
 a {
     color: #fff;
     text-decoration: underline;
