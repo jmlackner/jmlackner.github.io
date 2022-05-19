@@ -25,6 +25,6 @@ a {
     text-decoration: underline;
 }
 
-.row .header {
+.row.header {
     padding: 1.5rem 0;
 }
