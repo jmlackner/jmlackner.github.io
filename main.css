@@ -10,8 +10,16 @@
 
 html, body { 
     background-color: var(--wine);
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
-    font-family: 'Bilbo', serif;
+    text-align: center;
+    font-family: 'Bilbo Swash Caps', serif;
+    color: #fff;
+}
+
+a {
+    color: var(--silver);
+    text-decoration: underline;
 }
